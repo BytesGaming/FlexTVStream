@@ -36,8 +36,8 @@ export type Show = {
   overview: string | null;
   popularity: number;
   poster_path: string | null;
-  number_of_seasons: number | null;
-  number_of_episodes: number | null;
+  number_of_seasons: number;
+  number_of_episodes: number;
   release_date: string | null;
   first_air_date: string | null;
   last_air_date: string | null;
